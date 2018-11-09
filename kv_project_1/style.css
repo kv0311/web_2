@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Work+Sans:300,400,500,600,700");
+/* :: 2.0 Import All CSS */
+@import url(css/bootstrap.min.css);
+@import url(css/classy-nav.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/animate.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+html,body{
+  padding:0;
+  overflow-x:hidden;
+}
+.img{
+  object-fit: none;
+  object-position: 0 30px 0 0 0;
+}
+.classynav ul{
+  position: relative;
+  left: 20px;
+}
+.classynav ul li {
+  display: inline-block;
+  clear: both;
+  position: inherit;
+  z-index: 10;
+  text-transform: uppercase;
+  font-family: unset, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+.classynav ul li a {
+  padding: 0 20px;
+  display: block;
+  height: 35px; 
+  font-size: 14px;
+  line-height:10px; 
+  color:#262626;
+}
+.header-area {
+    	position: relative;
+ 	  width: 100%;
+  	z-index: 100;
+  	background-color: #ffffff;
+  	box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.15);
+  	height: 60px; }
+.header-area .search-form form {
+    position: relative;
+    z-index: 2;
+    border-right: 1px solid #ebebeb;
+    margin: 0 30px 0 100px; }
+    .header-area .search-form form button {
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms;
+      position: relative;
+      width: 40px;
+      height: 35px;
+      left: 912px;
+      bottom:110px;
+      z-index: 10;
+      border: none;
+      background-color: #ffffff;
+    }
+    .header-area .search-form form input.form-control {
+      position: relative;
+      bottom:75px;
+      left:660px;
+      width: 250px;
+      height: 35px;
+      border: none;
+      background-color: #ffffff;
+      font-size: 14px;
+      font-style: italic;
+      color: #a6a6a6;
+      padding: 0;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
+    .header-area .classy-menu .classynav ul li{
+      
+      position: relative;
+      top:-25px;
+      left:80px;
+    }
+    .nav-brand {
+      position:relative;
+      top:5px;
+      left:10px;
+    }
+    .top-social-info{
+      position: relative;
+      bottom:175px;
+      left:1133px;
+    }
+    .top-social-info i{
+     letter-spacing: 30px;
+    }
+    .vertical-line{
+      border-left: 1px solid black;
+      height: 35px;
+      position: relative;
+      left:1085px;
+      bottom: 145px;
+    }
+    .post-title-1{
+      font-size: 40px;
+      text-transform: uppercase;
+      color: rgb(73, 159, 230);
+      font-family:'Amethysta';
+      position: relative;
+      left: 850px;
+      bottom: 490px;
+    }
+    .post-title-2{
+      font-family: 'Playfair Display';
+      font-size: 27px;
+      word-spacing: -1px;
+      color:#262626;
+      position: relative;
+      left:850px;
+      bottom: 490px;
+    }
+    .post-title-3{
+      font-size: 20px;
+      font-family: unset
+    }
+    .header-wrapper {
+    width: 800px;
+    height: 600px;
+    overflow: hidden; }
+    .zoominheader {
+      width: 800px;
+    height: 600px;
+      -webkit-animation: zoomin 10s ease-in infinite;
+      animation: zoomin 10s ease-in infinite;
+      transition: all .5s ease-in-out;
+      overflow: hidden;
+    }
+    /* Zoom in Keyframes */
+    @-webkit-keyframes zoomin {
+      0% {transform: scale(1);}
+      50% {transform: scale(1.2);}
+      100% {transform: scale(1);} 
+    }
+    @keyframes zoomin {
+      0% {transform: scale(1);}
+      50% {transform: scale(1.2);}
+      100% {transform: scale(1);}
+    } /*End of Zoom in Keyframes */
+
+    .nikki-btn{
+    font-family: 'Playfair Display';
+    position: relative;
+    left: 850px;
+    bottom: 480px;
+    transition-duration: 500ms;
+    position: relative;
+    display: inline-block;
+    min-width: 180px;
+    height: 50px;
+    color:rgb(84, 84, 243);
+    background-color: #ffffff;
+    border: 1px solid #191919;
+    border-radius: 2px;
+    padding: 0 50px;
+    font-size: 17px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
